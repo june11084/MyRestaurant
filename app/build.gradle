@@ -38,4 +38,5 @@ dependencies {
     testImplementation "org.robolectric:robolectric:3.7.1"
     testCompile 'org.robolectric:robolectric:3.7.1'
     testCompile 'org.robolectric:shadows-support-v4:3.0'
+
 }
