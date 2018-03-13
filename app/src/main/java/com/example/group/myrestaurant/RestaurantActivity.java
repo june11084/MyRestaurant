@@ -15,7 +15,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class RestaurantActivity extends AppCompatActivity {
-
+    public static final String TAG = RestaurantActivity.class.getSimpleName();
     @BindView(R.id.locationTextView) TextView mLocationTextView;
     @BindView(R.id.listView) ListView mListView;
 
@@ -38,14 +38,14 @@ public class RestaurantActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String restaurant = ((TextView)view).getText().toString();
                 Toast.makeText(RestaurantActivity.this, restaurant, Toast.LENGTH_LONG).show();
-                Log.v("RestaurantsActivity", "In the onItemClickListener!");
+
             }
         });
 
         Intent intent = getIntent();
         String location = intent.getStringExtra("location");
         mLocationTextView.setText("Here are all the restaurants near: " + location);
-        Log.d("RestaurantsActivity", "In the onCreate method!");
+        Log.d(TAG, "In the onCreate method!");
 
 
     }
