@@ -34,7 +34,8 @@
         android:textColor="@color/colorTextIcons"
         android:textSize="60sp"
         android:textStyle="bold"
-        android:id="@+id/appNameTextView" />
+        android:id="@+id/appNameTextView"
+        />
 
     <Button
         android:layout_width="match_parent"
