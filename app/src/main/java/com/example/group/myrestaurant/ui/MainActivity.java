@@ -1,4 +1,4 @@
-package com.example.group.myrestaurant;
+package com.example.group.myrestaurant.ui;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.TextView;
+
+import com.example.group.myrestaurant.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

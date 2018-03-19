@@ -4,6 +4,9 @@ package com.example.group.myrestaurant;
 import android.content.Intent;
 import android.widget.TextView;
 
+import com.example.group.myrestaurant.ui.MainActivity;
+import com.example.group.myrestaurant.ui.RestaurantActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

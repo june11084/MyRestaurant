@@ -2,6 +2,8 @@ package com.example.group.myrestaurant;
 
 import android.widget.ListView;
 
+import com.example.group.myrestaurant.ui.RestaurantActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

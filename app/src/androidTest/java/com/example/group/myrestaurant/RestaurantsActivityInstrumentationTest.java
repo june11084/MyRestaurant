@@ -5,6 +5,8 @@ package com.example.group.myrestaurant;
 import android.support.test.rule.ActivityTestRule;
 import android.view.View;
 
+import com.example.group.myrestaurant.ui.RestaurantActivity;
+
 import org.junit.Rule;
 import org.junit.Test;
 
