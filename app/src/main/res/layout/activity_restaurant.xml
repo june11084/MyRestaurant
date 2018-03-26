@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.group.myrestaurant.ui.RestaurantActivity">
+    tools:context="com.example.group.myrestaurant.ui.RestaurantListActivity">
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
