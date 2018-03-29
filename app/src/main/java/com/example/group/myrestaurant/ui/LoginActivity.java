@@ -29,7 +29,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     private ProgressDialog mAuthProgressDialog;
     @BindView(R.id.passwordLoginButton) Button mPasswordLoginButton;
     @BindView(R.id.emailEditText) EditText mEmailEditText;
-    @BindView(R.id.passwordEditText) EditText mPasswordEditText;    @BindView(R.id.registerTextView) TextView mRegisterTextView;
+    @BindView(R.id.passwordEditText) EditText mPasswordEditText;
+    @BindView(R.id.registerTextView) TextView mRegisterTextView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

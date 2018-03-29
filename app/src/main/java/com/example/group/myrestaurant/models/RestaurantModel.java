@@ -16,6 +16,7 @@ public class RestaurantModel {
     double latitude;
     double longitude;
     List<String> categories = new ArrayList<>();
+    private String pushId;
 
     public RestaurantModel() {}
 
@@ -26,7 +27,6 @@ public class RestaurantModel {
         this.phone = phone;
         this.website = website;
         this.rating = rating;
-        //this.imageUrl = imageUrl;
         this.address = address;
         this.latitude = latitude;
         this.longitude = longitude;
@@ -73,5 +73,13 @@ public class RestaurantModel {
 
     public List<String> getCategories() {
         return categories;
+    }
+
+    public String getPushId() {
+        return pushId;
+    }
+
+    public void setPushId(String pushId) {
+        this.pushId = pushId;
     }
 }
