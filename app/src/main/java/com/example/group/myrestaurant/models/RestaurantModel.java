@@ -10,6 +10,7 @@ public class RestaurantModel {
     String name;
     String phone;
     String website;
+    String index;
     double rating;
     String imageUrl;
     List<String> address = new ArrayList<>();
@@ -32,11 +33,20 @@ public class RestaurantModel {
         this.longitude = longitude;
         this.categories = categories;
         this.imageUrl = getLargeImageUrl(imageUrl);
+        this.index = "not_specified";
     }
 
     public String getLargeImageUrl(String imageUrl) {
         String largeImageUrl = imageUrl.substring(0, imageUrl.length() - 5).concat("o.jpg");
         return largeImageUrl;
+    }
+
+    public String getIndex() {
+        return index;
+    }
+
+    public void setIndex(String index) {
+        this.index = index;
     }
 
     public String getName() {
